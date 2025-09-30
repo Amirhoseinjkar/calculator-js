@@ -1,0 +1,22 @@
+body{
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.btns{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+gap: 1rem;
+}
+button{
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+
+
+}
